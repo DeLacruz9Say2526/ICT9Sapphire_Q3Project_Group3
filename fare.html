@@ -53,54 +53,46 @@
             <h3>PICK-UP LOCATION</h3>
             <select id="pickUp" class="form-select form-select-sm" aria-label=".form-select-sm example">
                 <option selected>Choose pick-up location</option>
-                <option value="1">Recto</option>
-                <option value="2">Legarda</option>
-                <option value="3">Pureza</option>
-                <option value="4">V. Mapa</option>
-                <option value="5">J. Ruiz</option>
-                <option value="6">Gilmore</option>
-                <option value="7">Betty Go-Belmonte</option>
-                <option value="8">Araneta Center-Cubao</option>
-                <option value="9">Anonas</option>
-                <option value="10">Katipunan</option>
-                <option value="11">Santolan</option>
-                <option value="12">Marikina-Pasig</option>
-                <option value="13">Antipolo</option>
+                <option value="1" id="sta1">Recto</option>
+                <option value="2" id="sta2">Legarda</option>
+                <option value="3" id="sta3">Pureza</option>
+                <option value="4" id="sta4">V. Mapa</option>
+                <option value="5" id="sta5">J. Ruiz</option>
+                <option value="6" id="sta6">Gilmore</option>
+                <option value="7" id="sta7">Betty Go-Belmonte</option>
+                <option value="8" id="sta8">Araneta Center-Cubao</option>
+                <option value="9" id="sta9">Anonas</option>
+                <option value="10" id="sta10">Katipunan</option>
+                <option value="11" id="sta11">Santolan</option>
+                <option value="12" id="sta12">Marikina-Pasig</option>
+                <option value="13" id="sta13">Antipolo</option>
             </select>
 
                 
             <h3>DROP-OFF LOCATION</h3>
             <select id="dropOff" class="form-select form-select-sm" aria-label=".form-select-sm example">
                 <option selected>Choose drop-off location</option>
-                <option value="1">Recto</option>
-                <option value="2">Legarda</option>
-                <option value="3">Pureza</option>
-                <option value="4">V. Mapa</option>
-                <option value="5">J. Ruiz</option>
-                <option value="6">Gilmore</option>
-                <option value="7">Betty Go-Belmonte</option>
-                <option value="8">Araneta Center-Cubao</option>
-                <option value="9">Anonas</option>
-                <option value="10">Katipunan</option>
-                <option value="11">Santolan</option>
-                <option value="12">Marikina-Pasig</option>
-                <option value="13">Antipolo</option>
+                <option value="1" id="tO">Recto</option>
+                <option value="2" id="dA">Legarda</option>
+                <option value="3" id="zA">Pureza</option>
+                <option value="4" id="pA">V. Mapa</option>
+                <option value="5" id="iZ">J. Ruiz</option>
+                <option value="6" id="rE">Gilmore</option>
+                <option value="7" id="tE">Betty Go-Belmonte</option>
+                <option value="8" id="aO">Araneta Center-Cubao</option>
+                <option value="9" id="aS">Anonas</option>
+                <option value="10" id="kaN">Katipunan</option>
+                <option value="11" id="saN">Santolan</option>
+                <option value="12" id="iG">Marikina-Pasig</option>
+                <option value="13" id="lO">Antipolo</option>
             </select>
-
-            <div id="buttons">
-            <button type="button" class="btn btn-primary">Regular Fare</button>
-            <button type="button" class="btn btn-info">Discounted Fare</button>
-            </div>
-                
+                <button type="button" class="btn btn-primary" onclick="seeFare()">Regular Fare</button>
+                <button type="button" class="btn btn-info" onclick="discFare()">Discounted Fare</button>
         </div>
-
-        <div id="fare">
-            <h3>FARE:</h3>
-
-        </div>
+        <h3>FARE:</h3>
+        <div id="fare"></div>
 
     </div>
-
-    
+    <script src="proj.js"></script>
 </body>
 </html>
